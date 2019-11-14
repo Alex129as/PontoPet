@@ -1,12 +1,12 @@
 <?php
 
  $Server = "localhost";
- $Port = 3307;
  $User = "root";
  $Password = "";
- $Database = "pets.net";
+ $Database = "pontopet";
 
- $conexao =mysqli_connect($Server, $User, $Password, $Database, $Port);
+ $conexao =mysqli_connect($Server, $User, $Password, $Database);
   if (!$conexao){
       echo "erro";
   }
+  ?>
